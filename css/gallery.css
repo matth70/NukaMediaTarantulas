@@ -44,5 +44,9 @@ h4 {
 }
 
 footer .footerIcons {
-  margin-top: 5px;
+  margin-top: 10px;
+}
+
+footer address {
+  margin-top: 20px;
 }
