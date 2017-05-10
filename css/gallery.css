@@ -1,0 +1,54 @@
+/*BODY CONTENT*/
+.container>.row {
+  margin-top: 20px;
+}
+
+.col-centered-sm {
+  display: inline-block;
+  /*width: 290px;*/
+  width: 340px;
+  text-align: center;
+  float: none;
+  /*margin-left: 95px;*/
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.thumbnail {
+  background-color: #043457;
+  border: 1px solid #043457;
+  border-radius: 10px;
+}
+
+.thumbnail img {
+  height: 265px;
+  padding: 9px;
+  padding-top: 24px;
+}
+
+.thumbnail img:hover {
+    /*transform: scale(1.54);*/
+    transform: scale(1.09);
+    transition: 0.15s;
+}
+
+.thumbnail a {
+  height: 320px;
+}
+
+h4 {
+  /*margin-left: 21%;*/
+  color: #FFFFFF;
+  text-shadow: 2px 2px #808080;
+  margin-left: -5px;
+}
+
+/*FOOTER*/
+
+footer address {
+  margin-top: -4px;
+}
+
+footer .footerIcons {
+  margin-top: -10px;
+}
