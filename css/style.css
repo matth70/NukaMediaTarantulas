@@ -75,7 +75,11 @@ h4 {
 }
 
 #example2 {
-  background-image: url('../img/');
+  background-image: url('../img/slide2temp.png');
+}
+
+#example2 h3 {
+text-shadow: -1px 0 #000000,0 3px #000000,3px 0 #000000,0 -1px #000000;
 }
 
 #farm-background {
@@ -100,12 +104,14 @@ h4 {
 
 .btn-default {
   color: #fff;
-  background-color: #D34326;
+  /*background-color: #D34326;*/
+  background-color: #23065C;
   border: none;
 }
 
 .btn-default:hover {
-  background-color: #D34326;
+  background-color: #12012F;
+  color: #e2e2e2;
 }
 
 /*PRODUCTS SECTION*/
