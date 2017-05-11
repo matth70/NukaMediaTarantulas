@@ -1,0 +1,44 @@
+/*CONTACT FORM*/
+
+table {
+  margin-top: 100px;
+}
+
+.contact {
+  margin-left 80px;
+}
+
+thead {
+  font-weight: bold;
+}
+
+.contact-type {
+  font-weight: bold;
+}
+
+.pull-right img {
+  margin-left: 75px;
+  margin-top: -15px;
+}
+
+table:hover {
+  transform: scale(1.1);
+}
+
+/*JUMBOTRON HEADER*/
+#jumbotron-background {
+  background-image: url('../img/contactheader.jpg');
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+}
+
+#jumbotron-background p {
+  font-family: Canterbury;
+  margin-top: 80px;
+  font-size: 5em;
+  font-weight: 200px;
+  color: white;
+  text-shadow: 2px 2px grey;
+}
