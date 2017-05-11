@@ -5,11 +5,9 @@
 
 .col-centered-sm {
   display: inline-block;
-  /*width: 290px;*/
   width: 340px;
   text-align: center;
   float: none;
-  /*margin-left: 95px;*/
   margin-left: 35px;
   margin-top: 60px;
 }
@@ -59,11 +57,11 @@ h4 {
   text-shadow: 2px 2px grey;
 }
 
-/*FOOTER*/
-footer .footerIcons {
-  margin-top: 10px;
-}
-
-footer address {
-  margin-top: 20px;
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 200px) and (max-width: 1200px) {
+  .col-centered-sm {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
 }

@@ -43,3 +43,12 @@ table:hover {
   color: white;
   text-shadow: 2px 2px grey;
 }
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 10px) and (max-width: 1200px) {
+  .contact>img, .contact>col-xd-6{
+   float: none;
+   margin: 0 auto;
+   display: block;
+ }
+}
