@@ -57,12 +57,6 @@ header {
   padding: 9px;
   padding-top: 15px;
 }
-
-h4 {
-  margin-left: 28px;
-  color: #FFFFFF;
-}
-
 /*CAROUSEL SECTION*/
 .item {
   height: 400px;
@@ -71,7 +65,7 @@ h4 {
 }
 
 #example1 {
-  background-image: url('../img/techbanner1.jpg');
+  background-image: url('../img/restaurantbanner.jpg');
   padding-top: 9%;
 }
 
@@ -79,19 +73,15 @@ h4 {
   background-image: url('../img/slide2blue.jpg');
 }
 
-#example2 h3 {
+#example2 h3, #example3 h3 {
 /*text-shadow: -1px 0 #000000,0 3px #000000,3px 0 #000000,0 -1px #000000;*/
 color: #FFFFFF;
   -webkit-text-stroke: 1px #000;
 }
 
-#farm-background {
-  background-image: url('../img/site3.jpg');
+#example3 {
+  background-image: url('../img/plainblue.jpg');
 }
-
-/* #main-logo {
-  width: 250px;
-} */
 
 .carousel-caption {
   padding-bottom: 110px;
