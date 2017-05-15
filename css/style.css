@@ -85,7 +85,7 @@ color: #FFFFFF;
   -webkit-text-stroke: 1px #000;
 }
 
-#farm-background {
+#example3 {
   background-image: url('../img/site3.jpg');
 }
 
@@ -108,7 +108,7 @@ color: #FFFFFF;
 .btn-default {
   color: #fff;
   /*background-color: #D34326;*/
-  background-color: #23065C;
+  background-color: #043457;
   border: none;
 }
 
@@ -193,7 +193,7 @@ footer img {
 }
 
 address {
-  margin-top: 18px;
+  margin-top: 22px;
   margin-left: 240px;
 }
 
