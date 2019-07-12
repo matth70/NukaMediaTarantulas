@@ -8,9 +8,16 @@
 }
 /*HEADER*/
 .logo {
-  width: 70px;
-  margin-left: 50px;
-  margin-top: 15px;
+  width: 95px;
+  margin-left: 85px;
+  margin-top: 32px;
+}
+
+.nameLogo {
+  width: 680px;
+  padding-left: 170px;
+  margin-top: 10px;
+  margin-bottom: -100px;
 }
 
 .nav {
@@ -29,11 +36,6 @@ header {
   margin-top: -20px;
 }
 
-.logo {
-  width: 70px;
-  margin-left: 50px;
-}
-
 .nav {
   margin-top: 50px;
   margin-bottom: 5px;
@@ -48,7 +50,7 @@ header {
   margin-top: 15px;
 }
 
-.thumbnail {
+/*.thumbnail {
   background-color: #000;
 }
 
@@ -64,13 +66,53 @@ header {
   background-size: cover;
 }
 
+.col-centered-sm {
+  display: inline-block;
+  width: 350px;
+  text-align: center;
+  float: none;
+  margin-left: 35px;
+  margin-top: 60px;
+}
+
+.thumbnail {
+  background-color: #043457;
+  border: 1px solid #043457;
+  border-radius: 10px;
+}
+
+.thumbnail img {
+  height: 400px;
+  padding: 9px;
+  padding-top: 24px;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.54);
+    transform: scale(1.09);
+    transition: 0.15s;
+}
+
+.thumbnail a {
+  height: 320px;
+}
+
+h4 {
+  color: #FFFFFF;
+  text-shadow: 1px 1px #808080;
+  margin-left: -5px;
+}
+
+.desc {
+  color: #FFFFFF;
+}
 #example1 {
-  background-image: url('../img/restaurantbanner.jpg');
+  background-image: url('../img/Tbanner1.jpg');
   padding-top: 9%;
 }
 
 #example2 {
-  background-image: url('../img/slide2blue.jpg');
+  background-image: url('../img/Cversibanner.jpg');
 }
 
 #example2 h3, #example3 h3 {
@@ -80,19 +122,17 @@ color: #FFFFFF;
 }
 
 #example3 {
-<<<<<<< HEAD
-  background-image: url('../img/site3.jpg');
-=======
-  background-image: url('../img/plainblue.jpg');
->>>>>>> 9b33329a44d7b17232c5323b20b7bd4d9d11821c
+  background-image: url('../img/Pauratus.jpg');
 }
 
 .carousel-caption {
-  padding-bottom: 110px;
+  padding-bottom: 150px;
+  padding-left: 10px;
 }
 
 .carousel-caption h3 {
   font-size: 36px;
+  padding-bottom: 20px;
 }
 
 .carousel-caption p {
@@ -109,58 +149,6 @@ color: #FFFFFF;
 .btn-default:hover {
   background-color: #12012F;
   color: #e2e2e2;
-}
-
-/*PRODUCTS SECTION*/
-.featured p {
-  font-size: 15px;
-}
-
-.products-services {
-  margin-top: 30px;
-  margin-bottom: 160px;
-}
-
-.featured {
-  margin-left: 10px;
-  margin-bottom: 25px;
-}
-
-.btn-primary {
-  height: ;
-}
-
-.thumbnail {
-  background-color: #EDF1F4;
-}
-
-.thumbnail img {
-  height: 130px;
-}
-
-.thumbnail img {
-  padding-top: 10px;
-}
-
-.services {
-  margin-left: 90px;
-}
-
-.services ul {
-  margin-top: -0px;
-}
-
-.services li {
-  color: #4d83b5;
-}
-
-.services:hover {
-  transform: scale(1.15);
-  transition: 0.15s;
-}
-
-.services p {
-  margin-bottom: 15px;
 }
 
 /* FOOTER SECTION */
@@ -187,7 +175,7 @@ footer img {
 }
 
 address {
-  margin-top: 22px;
+  margin-top: 5px;
   margin-left: 240px;
 }
 
@@ -197,11 +185,11 @@ i {
 }
 
 .footerIcons {
-  margin-top: 15px;
+  margin-top: 3px;
 }
 
 footer p {
-  margin-top: -10px;
+  margin-top: -11px;
   color: #aaaaab;
 }
 

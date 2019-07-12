@@ -1,12 +1,22 @@
 /*CONTACT INFO*/
 
 table {
-  margin-top: 100px;
+  text-align: center;
+  margin-left: 670px;
+  margin-top: -100px;
+}
+
+.table a
+{
+    display:block;
+    text-decoration:none;
 }
 
 .contact {
-  margin-left: 80px;
+  margin-left: 600px;
   margin-bottom: 0px;
+  margin-top: -15px;
+  width:1200px;
 }
 
 /*thead {
@@ -21,18 +31,13 @@ td {
   font-weight: bold;
 }*/
 
-.pull-right img {
-  margin-left: 75px;
-  margin-top: -15px;
-}
-
 /*table:hover {
   transform: scale(1.1);
 }*/
 
 /*JUMBOTRON HEADER*/
 #jumbotron-background {
-  background-image: url('../img/contactheader.jpg');
+  background-image: url('../img/GBB.jpeg');
   height: 300px;
   background-size: cover;
   background-position: center;
@@ -47,40 +52,6 @@ td {
   color: white;
   text-shadow: 2px 2px grey;
 }
-
-/*CONTACT FORM*/
-.flex-container {
-  display: flex;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.form-container {
-  background-color: #F2F2F2;
-  margin-top: 60px;
-  margin-bottom: 50px;
-  padding: 20px;
-}
-
-.form-container h4 {
-  margin-top: 0px;
-}
-
-.contact-form textarea {
-  max-width: 100%;
-  max-height: 100px;
-}
-
-.danger {
-  border-color: #F00;
-}
-
 /*MEDIA QUERIES*/
 @media only screen and (min-width: 10px) and (max-width: 1200px) {
   .contact>img, .contact>col-xd-6{

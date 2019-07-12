@@ -1,44 +1,7 @@
 /*BODY CONTENT*/
-.col-centered-sm {
-  display: inline-block;
-  width: 340px;
-  text-align: center;
-  float: none;
-  margin-left: 35px;
-  margin-top: 60px;
-}
-
-.thumbnail {
-  background-color: #043457;
-  border: 1px solid #043457;
-  border-radius: 10px;
-}
-
-.thumbnail img {
-  height: 348px;
-  padding: 9px;
-  padding-top: 24px;
-}
-
-.thumbnail img:hover {
-    /*transform: scale(1.54);*/
-    transform: scale(1.09);
-    transition: 0.15s;
-}
-
-.thumbnail a {
-  height: 320px;
-}
-
-h4 {
-  /*margin-left: 21%;*/
-  color: #FFFFFF;
-  text-shadow: 2px 2px #808080;
-  margin-left: -5px;
-}
 
 #jumbotron-background {
-  background-image: url('../img/eye.jpg');
+  background-image: url('../img/Aezen.jpeg');
   height: 300px;
   background-size: cover;
   background-position: center;
@@ -50,7 +13,8 @@ h4 {
   margin-top: 80px;
   font-size: 5em;
   font-weight: 200px;
-  text-shadow: 2px 2px grey;
+  text-shadow: 3px 3px black;
+  color: #fff;
 }
 
 /*MEDIA QUERIES*/
