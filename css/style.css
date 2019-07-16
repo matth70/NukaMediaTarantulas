@@ -7,6 +7,7 @@
     src: url("../fonts/Canterbury.ttf");
 }
 /*HEADER*/
+
 .logo {
   width: 95px;
   margin-left: 85px;
@@ -73,8 +74,8 @@ header {
   text-align: center;
   float: none;
   margin-left: 35px;
-  margin-top: 60px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 
 .thumbnail {
