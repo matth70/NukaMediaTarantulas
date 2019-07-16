@@ -1,32 +1,31 @@
-/*UNIVERSAL STYLES*/
+/*------UNIVERSALS------*/
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
-@font-face {
-    font-family: "Canterbury";
-    src: url("../fonts/Canterbury.ttf");
-}
-/*HEADER*/
-
+/*--------HEADER--------*/
 .logo {
-  width: 95px;
-  margin-left: 85px;
-  margin-top: 32px;
+  height: 120px;
+  padding-top: 50px;
+  padding-right: 30px
+}
+
+.logos {
+margin: auto;
+width: 71%;
 }
 
 .nameLogo {
-  width: 680px;
-  padding-left: 170px;
-  margin-top: 10px;
-  margin-bottom: -100px;
+  width: 600px;
+}
+
+.satisfy-text {
 }
 
 .nav {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 header {
-  margin-bottom: 5px;
 }
 
 header li {
@@ -34,81 +33,18 @@ header li {
 }
 /*NAVBAR*/
 header {
-  margin-top: -20px;
 }
 
 .nav {
-  margin-top: 50px;
-  margin-bottom: 5px;
+  margin-top: 135px;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #fff;
     background-color: #000000;
 }
-/*BODY CONTENT*/
-.container>.row {
-  margin-top: 15px;
-}
 
-/*.thumbnail {
-  background-color: #000;
-}
-
-.thumbnail img {
-  height: 300px;
-  padding: 9px;
-  padding-top: 15px;
-}
-/*CAROUSEL SECTION*/
-
-.item {
-  height: 400px;
-  background-position: center;
-  background-size: cover;
-}
-
-.col-centered-sm {
-  display: inline-block;
-  width: 350px;
-  text-align: center;
-  float: none;
-  margin-left: 35px;
-  margin-top: 50px;
-  margin-bottom: 0px;
-}
-
-.thumbnail {
-  background-color: #043457;
-  border: 1px solid #043457;
-  border-radius: 10px;
-}
-
-.thumbnail img {
-  height: 400px;
-  padding: 9px;
-  padding-top: 24px;
-}
-
-.thumbnail img:hover {
-    transform: scale(1.54);
-    transform: scale(1.09);
-    transition: 0.15s;
-}
-
-.thumbnail a {
-  height: 320px;
-}
-
-h4 {
-  color: #FFFFFF;
-  text-shadow: 1px 1px #808080;
-  margin-left: -5px;
-}
-
-.desc {
-  color: #FFFFFF;
-}
+/*---JUMBOTRON SECTION---*/
 #example1 {
   background-image: url('../img/Tbanner1.jpg');
   padding-top: 9%;
@@ -140,26 +76,58 @@ color: #FFFFFF;
 
 .carousel-caption p {
   font-size: 18px;
-}
-
-.btn-default {
-  color: #fff;
-  /*background-color: #D34326;*/
   background-color: #043457;
-  border: none;
 }
 
-.btn-default:hover {
-  background-color: #12012F;
-  color: #e2e2e2;
+.item {
+  height: 400px;
+  background-position: center;
+  background-size: cover;
 }
 
-/* FOOTER SECTION */
+/*--- PRODUCTS AND SERVICES SECTION ---*/
+.featured {
+  margin-left: 10px;
+}
+
+.thumbnail {
+  background-color: #043457;
+  border: 1px solid #043457;
+  border-radius: 10px;
+}
+
+.thumbnail img {
+  height: px;
+  padding: 9px;
+  padding-top: 24px;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.70);
+    transform: scale(1.115);
+    transition: 0.15s;
+} /*.54, .09*/
+
+.thumbnail a {
+  height: 320px;
+}
+
+.caption h4 {
+  color: white;
+  text-align: center;
+}
+
+.caption p {
+  color: white;
+  text-align: center;
+}
+
+.caption form {
+  text-align: center;
+}
+
+/*-------- FOOTER SECTION --------*/
 footer {
-  height: 150px;
-  background-color: #231F20;
-  margin-top: 50px;
-  height: 100px;
   background-color: #231F20;
 }
 
@@ -169,8 +137,6 @@ footer img {
 
 .section-border {
   border-right: 1px solid #323232;
-  margin-right: 50px;
-  margin-left: 100px;
 }
 
 .medium-grey {
@@ -178,8 +144,7 @@ footer img {
 }
 
 address {
-  margin-top: 5px;
-  margin-left: 240px;
+  margin-top: 20px;
 }
 
 i {
@@ -188,19 +153,23 @@ i {
 }
 
 .footerIcons {
-  margin-top: 3px;
+  margin-top: 20px;
 }
 
 footer p {
-  margin-top: -11px;
+  margin-top: -8px;
   color: #aaaaab;
 }
 
-/*.copyright {
-  margin-top: 10px;
+.footerLogo {
+  height: 50px;
+}
+
+.copyright {
+  margin-top: 0px;
   text-align: center;
   color: #aaaaab;
-}*/
+}
 
 a.social {
   text-decoration:none;
@@ -209,34 +178,4 @@ a.social {
 
 a:hover {
   text-decoration: none;
-}
-
-/* MEDIA QUERIES*/
-@media only screen and (min-width: 100px) and (max-width: 1000px) {
-  .services {margin-left: 0px;}
-}
-
-@media only screen and (min-width: 10px) and (max-width: 1000px) {
-  .col-xs-6 address {
-    margin-top: 15px;
-    margin-left: 0px;
-  }
-
-  .col-xs-6, .section-border {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .col-xs-6, .footerIcons {
-    margin-top: 10px;
-    margin-left: 0px;
-  }
-}
-
-@media only screen and (min-width: 200px) and (max-width: 1200px) {
-  .products-services, .col-md-8, .services {
-    float: none;
-    margin: 0 auto;
-    display: block;
-  }
 }

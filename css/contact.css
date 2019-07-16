@@ -3,7 +3,7 @@
 table {
   text-align: center;
   margin-left: 510px;
-  margin-top: -120px;
+  margin-top: 0px;
 }
 
 .table a
@@ -15,7 +15,7 @@ table {
 .contact {
   margin-left:570px;
   margin-bottom: 0px;
-  margin-top: -15px;
+  margin-top: 0px;
   width:800px;
 }
 
@@ -37,8 +37,8 @@ td {
 
 /*JUMBOTRON HEADER*/
 #jumbotron-background {
-  background-image: url('../img/GBB.jpeg');
-  height: 300px;
+  background-image: url('../img/GBBbanner.jpg');
+  height: 400px;
   background-size: cover;
   background-position: center;
   margin-top: 5px;
@@ -46,21 +46,21 @@ td {
 
 #jumbotron-background p {
   font-family: Canterbury;
-  margin-top: 80px;
+  margin-top: 130px;
   font-size: 5em;
   font-weight: 200px;
   color: white;
   text-shadow: 2px 2px grey;
 }
 /*MEDIA QUERIES*/
-@media only screen and (min-width: 10px) and (max-width: 1200px) {
+/*@media only screen and (min-width: 10px) and (max-width: 1200px) {
   .contact>img, .contact>col-xd-6{
    float: none;
    margin: 0 auto;
    display: block;
  }
-}
+} */
 
 footer {
-  margin-top: 200px;
+  margin-top: 120px;
 }
