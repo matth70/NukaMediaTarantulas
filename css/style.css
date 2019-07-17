@@ -21,11 +21,6 @@ width: 71%;
 .satisfy-text {
 }
 
-.nav {
-  margin-top: 0px;
-  margin-left: 20px;
-}
-
 header {
 }
 
@@ -38,6 +33,8 @@ header {
 
 .nav {
   margin-top: 135px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
@@ -182,5 +179,6 @@ a:hover {
 }
 
 @media only screen and (min-width: 100px) and (max-width: 1000px) {
-  .logos {height: 50px;}
+  .logo {height: 15px;}
+  .nameLogo {height 20px;}
 }
