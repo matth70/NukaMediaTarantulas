@@ -68,9 +68,15 @@ footer {
 @media only screen and (min-width: 100px) and (max-width: 1000px) {
   .contact {
       margin-left: 0px;
-      width: 400px;
+      width: 300px;
   }
   table {
     width: 80%;
+  }
+  #jumbotron-background p {
+    margin-top: 0px;
+  }
+  #jumbotron-background {
+    height: 200px;
   }
 }
