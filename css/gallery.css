@@ -1,7 +1,7 @@
 /*BODY CONTENT*/
 
 #jumbotron-background {
-  background-image: url('../img/Aezen.jpeg');
+  background-image: url('../img/Agenbanner.jpg');
   height: 300px;
   background-size: cover;
   background-position: center;
@@ -15,6 +15,22 @@
   font-weight: 200px;
   text-shadow: 3px 3px black;
   color: #fff;
+}
+
+.video {
+  margin: auto;
+  width: 38%;
+  padding-top: 75px;
+}
+
+.video2 {
+  margin: auto;
+  width: 38%;
+  padding-top: 30px;
+}
+
+footer {
+  margin-top: 50px;
 }
 
 /*MEDIA QUERIES*/

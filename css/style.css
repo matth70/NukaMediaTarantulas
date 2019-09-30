@@ -25,7 +25,7 @@ header {
 }
 
 header li {
-  margin-right: 15px;
+  margin-right: 0px;
 }
 /*NAVBAR*/
 header {
@@ -33,7 +33,7 @@ header {
 
 .nav {
   margin-top: 135px;
-  margin-left: 20px;
+  margin-left: 0px;
   margin-bottom: 5px;
 }
 
